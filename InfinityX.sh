@@ -13,22 +13,22 @@ repo init -u https://github.com/ProjectInfinity-X/manifest -b 16 --git-lfs && \
 /opt/crave/resync.sh && \
 
 # --- Clone Device Tree ---
-git clone https://github.com/6hrishti/android_device_oneplus_taanya -b taanya device/oneplus/larry && \
+git clone https://github.com/5anvi/android_device_oneplus_taanya -b taanya device/oneplus/larry && \
 
 # --- Clone Common Device Tree ---
-git clone https://github.com/6hrishti/android_device_oneplus_taanya-common -b lineage-23.0 device/oneplus/sm6375-common && \
+git clone https://github.com/5anvi/android_device_oneplus_taanya-common -b lineage-23.0 device/oneplus/sm6375-common && \
 
 # --- Clone Vendor Tree ---
-git clone https://github.com/6hrishti/proprietary_vendor_oneplus_taanya -b taanya vendor/oneplus/larry && \
+git clone https://github.com/5anvi/proprietary_vendor_oneplus_taanya -b taanya vendor/oneplus/larry && \
 
 # --- Clone Common Vendor Tree ---
-git clone https://github.com/6hrishti/proprietary_vendor_oneplus_taanya-common -b taanya vendor/oneplus/sm6375-common && \
+git clone https://github.com/5anvi/proprietary_vendor_oneplus_taanya-common -b taanya vendor/oneplus/sm6375-common && \
 
 # --- Clone Kernel Tree ---
-git clone https://github.com/6hrishti/android_kernel_oneplus_taanya -b taanya kernel/oneplus/sm6375 && \
+git clone https://github.com/5anvi/android_kernel_oneplus_taanya -b taanya kernel/oneplus/sm6375 && \
 
 # --- Clone Hardware Tree ---
-git clone https://github.com/6hrishti/android_hardware_oplus -b lineage-23.0 hardware/oplus && \
+git clone https://github.com/5anvi/android_hardware_oplus -b lineage-23.0 hardware/oplus && \
 
 # =============================
 #  Build: Vanilla → Gapps
